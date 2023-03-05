@@ -1,3 +1,4 @@
+#This function helps to cature image of the person and add to seperate foder by the given name
 def capture_images(person_name):
     import cv2
     import os
@@ -59,7 +60,10 @@ def capture_images(person_name):
     # Release the video capture device and close all windows
     cap.release()
     cv2.destroyAllWindows()
-
+    
+    
+    
+#This function helps to train the face recognition model
 def train_facial_recognition_model(dataset_path, model_path):
     import os
     import face_recognition
@@ -88,6 +92,9 @@ def train_facial_recognition_model(dataset_path, model_path):
     with open(model_path, "wb") as f:
         f.write(pickle.dumps(face_recognizer))
 
+        
+        
+#this function used to detect the student face and mark attendance in both database and CSV
 def smart_attendance_system():
     import datetime
     import csv
