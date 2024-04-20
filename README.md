@@ -8,8 +8,8 @@ In this project, we aim to create a student attendance system that utilizes comp
 The following technologies will be used to implement this project:
 
   * OpenCV : a popular computer vision library that provides tools for image and video processing, including facial recognition and detection.
-  * face-recognition : MySQL is a popular open-source relational database management system (RDBMS) that is widely used in web applications and software development.
-  * MySQL : a Python library that enables Python programs to access MySQL databases.
+  * face-recognition: A Python library used for face detection and recognition tasks, such as identifying faces in images or videos.
+  * MySQL : MySQL is a popular open-source relational database management system (RDBMS) that is widely used in web applications and software development.
   * Python : a programming language that will be used to write the application code.
   
   
